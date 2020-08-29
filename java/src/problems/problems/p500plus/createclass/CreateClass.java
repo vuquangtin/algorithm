@@ -16,7 +16,8 @@ public class CreateClass {
 		String[] arrayURL = {
 				"https://www.techiedelight.com/find-distinct-combinations-of-given-length/",
 				"https://www.techiedelight.com/check-subarray-with-0-sum-exists-not/",
-				"https://www.techiedelight.com/find-sub-array-with-0-sum/" };
+				"https://www.techiedelight.com/find-sub-array-with-0-sum/",
+				"https://www.techiedelight.com/sort-binary-array-linear-time/" };
 		System.out.println(createClass(arrayURL[arrayURL.length - 1]));
 	}
 
