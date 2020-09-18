@@ -231,5 +231,5 @@ The θ(n) là cách để biểu diễn cả tiệm cận trên và tiệm cận
 |Đa thức (polynomial)	|−	|nΟ(1)|
 |Hàm mũ (exponential)	|−	|2Ο(n)|
 
-@see https://vietjack.com/cau-truc-du-lieu-va-giai-thuat/phan-tich-tiem-can.jsp
-@see https://github.com/tuannt39-study/vietjack-algorithms/blob/master/study/04%20giai%20thuat%20tiem%20can
+* @see https://vietjack.com/cau-truc-du-lieu-va-giai-thuat/phan-tich-tiem-can.jsp
+* @see https://github.com/tuannt39-study/vietjack-algorithms/blob/master/study/04%20giai%20thuat%20tiem%20can

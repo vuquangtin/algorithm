@@ -16,6 +16,7 @@ public abstract class Resource {
 	public static String PATH = null;
 	public static String PATH_NINJAR = null;
 	public static String PATH_INTERPRETER = null;
+	public static String PATH_INPUT = null;
 	static {
 		try {
 			PATH = new File(".").getCanonicalPath() + "/java/src/resources/images/";
@@ -23,6 +24,7 @@ public abstract class Resource {
 					+ "/java/resources/app_ninjar/";
 			PATH_INTERPRETER = new File(".").getCanonicalPath()
 					+ "/java/resources/app_interpreter/";
+			PATH_INPUT= new File(".").getCanonicalPath() + "/java/src/resources/input/";
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
