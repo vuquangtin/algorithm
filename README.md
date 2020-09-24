@@ -128,7 +128,9 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 ### Tham khảo
 
 * [https://javabeat.net/ocpjp-6-mock-exam-java-9/](https://javabeat.net/ocpjp-6-mock-exam-java-9/)
+* [https://github.com/PuzzlesLab/UVA](https://github.com/PuzzlesLab/UVA)
 * [https://github.com/AkshantVats/Patterns_For_Coding_interview](https://github.com/AkshantVats/Patterns_For_Coding_interview)
+* [https://onlinejudge.org/external/](https://onlinejudge.org/external/)
 * [https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code](https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code)
 * [https://github.com/smholsen/HackerRank/blob/master/readme.md](https://github.com/smholsen/HackerRank/blob/master/readme.md)
 * [https://github.com/ByoungJoonIm/Algorithm_Practice/tree/master](https://github.com/ByoungJoonIm/Algorithm_Practice/tree/master)

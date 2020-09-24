@@ -139,6 +139,8 @@ public class UpdateREADME {
 		set.add("https://github.com/AkshantVats/Patterns_For_Coding_interview");
 		set.add("https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code");
 		set.add("https://javabeat.net/ocpjp-6-mock-exam-java-9/");
+		set.add("https://github.com/PuzzlesLab/UVA");
+		set.add("https://onlinejudge.org/external/");
 		return set;
 	}
 
