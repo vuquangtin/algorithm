@@ -8,12 +8,13 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 * Giải thuật Cập nhật: Giải thuật để cập nhật (hay update) một phần tử đã tồn tại trong một cấu trúc dữ liệu.
 * Giải thuật Xóa: Giải thuật để xóa một phần tử đang tồn tại từ một cấu trúc dữ liệu.
 
-## Tham khảo
+### Tham khảo
 
 * [https://drive.google.com/file/d/1Be4gVjW5gK8wqg0NifCptKYBd7cHyoSW/edit](https://drive.google.com/file/d/1Be4gVjW5gK8wqg0NifCptKYBd7cHyoSW/edit)
 * [https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md](https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md)
 * [https://github.com/hieptran1812/Algorithm-for-ITPTIT](https://github.com/hieptran1812/Algorithm-for-ITPTIT)
 * [https://github.com/lamtt2403/KTLTHDT](https://github.com/lamtt2403/KTLTHDT)
+* [https://github.com/vunguyen1989/Fundamental/tree/master/LeMinhHoang](https://github.com/vunguyen1989/Fundamental/tree/master/LeMinhHoang)
 * [https://kienthuc24h.com/category/thuat-toan/](https://kienthuc24h.com/category/thuat-toan/)
 * [https://www.spoj.com/PTIT/](https://www.spoj.com/PTIT/)
 * [https://github.com/VikasSherawat/Programming/tree/master/CompanyInterviews](https://github.com/VikasSherawat/Programming/tree/master/CompanyInterviews)
@@ -32,7 +33,7 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 # cses
 
 
-## Tham khảo
+### Tham khảo
 
 * [https://github.com/tonymontaro/java-algos](https://github.com/tonymontaro/java-algos)
 * [https://github.com/thcy/CSES-Solutions/tree/master](https://github.com/thcy/CSES-Solutions/tree/master)
@@ -46,7 +47,7 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 # icpc
 
 
-## Tham khảo
+### Tham khảo
 
 * [https://v1study.com/giai-thuat-va-lap-trinh-phuong-phap-sinh-generation.html](https://v1study.com/giai-thuat-va-lap-trinh-phuong-phap-sinh-generation.html)
 * [https://github.com/matthewsamuel95/ACM-ICPC-Algorithms](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms)
@@ -54,14 +55,14 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 # java
 
 
-## Tham khảo
+### Tham khảo
 
 * [https://sites.google.com/site/cse423fall2018/tai-lieu-mon-hoc](https://sites.google.com/site/cse423fall2018/tai-lieu-mon-hoc)
 
 # github
 
 
-## Tham khảo
+### Tham khảo
 
 * [https://github.com/tejaswigk/tejaswigk.github.io/blob/master/_posts/2020-02-14-40-java-collections-interview.md](https://github.com/tejaswigk/tejaswigk.github.io/blob/master/_posts/2020-02-14-40-java-collections-interview.md)
 * [https://github.com/sea-boat/java_concurrent/tree/master/src/main/java/com/seaboat/thread](https://github.com/sea-boat/java_concurrent/tree/master/src/main/java/com/seaboat/thread)
@@ -85,7 +86,7 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 # java_certification
 
 
-## Tham khảo
+### Tham khảo
 
 * [https://github.com/darixsamani/engine-search-book/blob/a459aff808d0dc0e6c6a854016e12720c748397d/resultats.csv](https://github.com/darixsamani/engine-search-book/blob/a459aff808d0dc0e6c6a854016e12720c748397d/resultats.csv)
 * [https://github.com/adhikariaman01/BookmarkSiteList/blob/master/MyBookmarkedLink/Java/README.md](https://github.com/adhikariaman01/BookmarkSiteList/blob/master/MyBookmarkedLink/Java/README.md)
@@ -124,6 +125,8 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 # Exam
 
 
+### Tham khảo
+
 * [https://javabeat.net/ocpjp-6-mock-exam-java-9/](https://javabeat.net/ocpjp-6-mock-exam-java-9/)
 * [https://github.com/AkshantVats/Patterns_For_Coding_interview](https://github.com/AkshantVats/Patterns_For_Coding_interview)
 * [https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code](https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code)
@@ -131,10 +134,17 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 * [https://github.com/ByoungJoonIm/Algorithm_Practice/tree/master](https://github.com/ByoungJoonIm/Algorithm_Practice/tree/master)
 * [https://github.com/hd132607/JavaPractice/blob/master/README.md](https://github.com/hd132607/JavaPractice/blob/master/README.md)
 
+# Tutorial
+
+
+### Tham khảo
+
+* [https: // www.techiedelight.com/Category/Graphs/](https: // www.techiedelight.com/Category/Graphs/)
+
 # docs
 
 
-## Tham khảo
+### Tham khảo
 
 * [https://github.com/smokecoffee/EBooks](https://github.com/smokecoffee/EBooks)
 * [https://github.com/29ff/advanced_node/tree/master](https://github.com/29ff/advanced_node/tree/master)

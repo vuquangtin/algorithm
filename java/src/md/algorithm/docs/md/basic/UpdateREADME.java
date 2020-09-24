@@ -37,14 +37,15 @@ public class UpdateREADME {
 						+ "\n* Giải thuật Chèn: Giải thuật để chèn phần từ vào trong một cấu trúc dữ liệu."
 						+ "\n* Giải thuật Cập nhật: Giải thuật để cập nhật (hay update) một phần tử đã tồn tại trong một cấu trúc dữ liệu."
 						+ "\n* Giải thuật Xóa: Giải thuật để xóa một phần tử đang tồn tại từ một cấu trúc dữ liệu."
-						+ "\n\n## Tham khảo"), cses(INDEX_TITLE++, "# cses",
-				"\n\n## Tham khảo"), icpc(INDEX_TITLE++, "# icpc",
-				"\n\n## Tham khảo"), java(INDEX_TITLE++, "# java",
-				"\n\n## Tham khảo"), github(INDEX_TITLE++, "# github",
-				"\n\n## Tham khảo"), java_certification(INDEX_TITLE++,
-				"# java_certification", "\n\n## Tham khảo"), Exam(
-				INDEX_TITLE++, "# Exam", "\n\n## Tham khảo"), docs(
-				INDEX_TITLE++, "# docs", "\n\n## Tham khảo");
+						+ "\n\n### Tham khảo"), cses(INDEX_TITLE++, "# cses",
+				"\n\n### Tham khảo"), icpc(INDEX_TITLE++, "# icpc",
+				"\n\n### Tham khảo"), java(INDEX_TITLE++, "# java",
+				"\n\n### Tham khảo"), github(INDEX_TITLE++, "# github",
+				"\n\n### Tham khảo"), java_certification(INDEX_TITLE++,
+				"# java_certification", "\n\n### Tham khảo"), Exam(
+				INDEX_TITLE++, "# Exam", "\n\n### Tham khảo"), tutorial(
+				INDEX_TITLE++, "# Tutorial", "\n\n### Tham khảo"), docs(
+				INDEX_TITLE++, "# docs", "\n\n### Tham khảo");
 		private int index;
 		private String name;
 		private String des;
@@ -114,14 +115,24 @@ public class UpdateREADME {
 		case Exam:
 			hash.get(title).addAll(updateExam());
 			break;
+		case tutorial:
+			hash.get(title).addAll(updateTutorial());
+			break;
 		default:
 			break;
 
 		}
 	}
 
+	private Collection<? extends String> updateTutorial() {
+		Set<String> set = new HashSet<String>();
+		set.add("https: // www.techiedelight.com/Category/Graphs/");
+		return set;
+	}
+
 	private Collection<? extends String> updateExam() {
 		Set<String> set = new HashSet<String>();
+
 		set.add("https://github.com/smholsen/HackerRank/blob/master/readme.md");
 		set.add("https://github.com/hd132607/JavaPractice/blob/master/README.md");
 		set.add("https://github.com/ByoungJoonIm/Algorithm_Practice/tree/master");
