@@ -6,16 +6,18 @@ package thuattoan.btlietke.phuongphapsinh;
  * @author EMAIL:vuquangtin@gmail.com , tel:0377443333
  * @version 1.0.0
  * @see <a href="https://github.com/vuquangtin/algorithm">https://github.com/
+
  *      vuquangtin/algorithm</a>
  *
  */
-public class LietKeHeCoSoX {
+public class LietKeHeCoSoX_Backtracking {
 	static int count;
 	static int n;
 	static String[] x = new String[100];
 	static final String[] HE_SO_2 = { "0", "1" };
-	static final String[] HE_SO_HEXA = { "0", "1","2","3","4","5","6","7","8","9","A","B","C","D","E","F" };
-	static final String[] HE_SO_8 = { "0", "1","2","3","4","5","6","7" };
+	static final String[] HE_SO_HEXA = { "0", "1", "2", "3", "4", "5", "6",
+			"7", "8", "9", "A", "B", "C", "D", "E", "F" };
+	static final String[] HE_SO_8 = { "0", "1", "2", "3", "4", "5", "6", "7" };
 	static String[] HE_SO;
 
 	public static void printSolution() {

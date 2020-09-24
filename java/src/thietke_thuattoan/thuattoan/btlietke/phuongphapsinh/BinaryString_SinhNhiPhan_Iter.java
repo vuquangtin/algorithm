@@ -11,7 +11,7 @@ import java.util.Scanner;
  *      vuquangtin/algorithm</a>
  *
  */
-public class SinhNhiPhan {
+public class BinaryString_SinhNhiPhan_Iter {
 	private int i, n, a[];
 
 	public void Init() {
@@ -52,7 +52,7 @@ public class SinhNhiPhan {
 	}
 
 	public static void main(String[] agrs) {
-		SinhNhiPhan generbinary = new SinhNhiPhan();
+		BinaryString_SinhNhiPhan_Iter generbinary = new BinaryString_SinhNhiPhan_Iter();
 		generbinary.Init();
 		generbinary.GenerBinary();
 		System.gc();

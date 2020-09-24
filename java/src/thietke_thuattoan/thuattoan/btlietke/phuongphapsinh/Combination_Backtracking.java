@@ -11,7 +11,7 @@ import java.util.Scanner;
  *      vuquangtin/algorithm</a>
  *
  */
-public class Combination {
+public class Combination_Backtracking {
 	private static int n, k, X[], count = 0;
 
 	private static void Init() {
@@ -25,7 +25,7 @@ public class Combination {
 	}
 
 	private static void Result() {
-		System.out.print("Kết quả" + (++count) + ": ");
+		System.out.print("Kết quả " + (++count) + ": ");
 		for (int i = 1; i <= k; i++)
 			System.out.print(X[i] + "  ");
 		System.out.println();

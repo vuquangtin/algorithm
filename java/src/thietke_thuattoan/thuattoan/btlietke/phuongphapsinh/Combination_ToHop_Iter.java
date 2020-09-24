@@ -8,10 +8,11 @@ import java.util.Scanner;
  * @author EMAIL:vuquangtin@gmail.com , tel:0377443333
  * @version 1.0.0
  * @see <a href="https://github.com/vuquangtin/algorithm">https://github.com/
+
  *      vuquangtin/algorithm</a>
  *
  */
-public class ToHop {
+public class Combination_ToHop_Iter {
 	private int i, n, k, a[];
 
 	public void Init() {
@@ -40,6 +41,7 @@ public class ToHop {
 		do {
 			Result();
 			this.i = this.k;
+			// System.out.println(i + "\t" + k + "\t" + n);
 			while (this.i > 0 && a[i] == this.n - this.k + i)
 				--i;
 			if (this.i > 0) {
@@ -54,7 +56,7 @@ public class ToHop {
 	}
 
 	public static void main(String[] agrs) {
-		ToHop tohop = new ToHop();
+		Combination_ToHop_Iter tohop = new Combination_ToHop_Iter();
 		tohop.Init();
 		tohop.sinhToHop();
 		System.gc();
