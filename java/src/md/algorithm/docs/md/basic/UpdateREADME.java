@@ -45,7 +45,10 @@ public class UpdateREADME {
 				"# java_certification", "\n\n### Tham khảo"), Exam(
 				INDEX_TITLE++, "# Exam", "\n\n### Tham khảo"), tutorial(
 				INDEX_TITLE++, "# Tutorial", "\n\n### Tham khảo"), docs(
-				INDEX_TITLE++, "# docs", "\n\n### Tham khảo");
+				INDEX_TITLE++, "# docs", "\n\n### Tham khảo"), Web(
+				INDEX_TITLE++,
+				"#  nguồn học thuật toán chất lượng để bạn luyện 'lên cơ'",
+				"\n\n### Tham khảo");
 		private int index;
 		private String name;
 		private String des;
@@ -118,15 +121,28 @@ public class UpdateREADME {
 		case tutorial:
 			hash.get(title).addAll(updateTutorial());
 			break;
+		case Web:
+			hash.get(title).addAll(updateWeb());
+			break;
 		default:
 			break;
 
 		}
 	}
 
+	private Collection<? extends String> updateWeb() {
+		Set<String> set = new HashSet<String>();
+		set.add("https://exercism.io/");
+		set.add("https://www.geeksforgeeks.org/");
+		set.add("https://leetcode.com/");
+		set.add("https://www.dailycodingproblem.com/");
+		set.add("https://www.hackerrank.com/");
+		return set;
+	}
+
 	private Collection<? extends String> updateTutorial() {
 		Set<String> set = new HashSet<String>();
-		set.add("https: // www.techiedelight.com/Category/Graphs/");
+		set.add("https:// www.techiedelight.com/Category/Graphs/");
 		return set;
 	}
 
@@ -141,6 +157,7 @@ public class UpdateREADME {
 		set.add("https://javabeat.net/ocpjp-6-mock-exam-java-9/");
 		set.add("https://github.com/PuzzlesLab/UVA");
 		set.add("https://onlinejudge.org/external/");
+		set.add("https://github.com/leonccao/OnlineJudge-Solutions");
 		return set;
 	}
 

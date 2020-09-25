@@ -129,6 +129,7 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 
 * [https://javabeat.net/ocpjp-6-mock-exam-java-9/](https://javabeat.net/ocpjp-6-mock-exam-java-9/)
 * [https://github.com/PuzzlesLab/UVA](https://github.com/PuzzlesLab/UVA)
+* [https://github.com/leonccao/OnlineJudge-Solutions](https://github.com/leonccao/OnlineJudge-Solutions)
 * [https://github.com/AkshantVats/Patterns_For_Coding_interview](https://github.com/AkshantVats/Patterns_For_Coding_interview)
 * [https://onlinejudge.org/external/](https://onlinejudge.org/external/)
 * [https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code](https://github.com/search?l=Markdown&p=4&q=java+practice&type=Code)
@@ -141,7 +142,7 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 
 ### Tham khảo
 
-* [https: // www.techiedelight.com/Category/Graphs/](https: // www.techiedelight.com/Category/Graphs/)
+* [https:// www.techiedelight.com/Category/Graphs/](https:// www.techiedelight.com/Category/Graphs/)
 
 # docs
 
@@ -174,3 +175,14 @@ Xuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là 
 * [https://github.com/vmmurthy/tech-docs](https://github.com/vmmurthy/tech-docs)
 * [https://github.com/minhduc2803/fresher-program-2020](https://github.com/minhduc2803/fresher-program-2020)
 * [https://github.com/smokecoffee/ocpj8-notes](https://github.com/smokecoffee/ocpj8-notes)
+
+#  nguồn học thuật toán chất lượng để bạn luyện 'lên cơ'
+
+
+### Tham khảo
+
+* [https://www.geeksforgeeks.org/](https://www.geeksforgeeks.org/)
+* [https://www.hackerrank.com/](https://www.hackerrank.com/)
+* [https://leetcode.com/](https://leetcode.com/)
+* [https://www.dailycodingproblem.com/](https://www.dailycodingproblem.com/)
+* [https://exercism.io/](https://exercism.io/)

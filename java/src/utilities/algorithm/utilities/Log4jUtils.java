@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 public class Log4jUtils {
-	private final static String LOG_NAME = "start-the-any-browser";
+	private final static String LOG_NAME = "algorithm";
 
 	public static Logger initLog4j() {
 		Properties properties = new Properties();
