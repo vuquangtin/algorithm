@@ -7,20 +7,23 @@ import java.util.Arrays;
  * 
  * @author EMAIL:vuquangtin@gmail.com , tel:0377443333
  * @version 1.0.0
- * @see <a
- *      href="https://github.com/vuquangtin/algorithm">https://github.com/vuquangtin/algorithm</a>
+ * @see <a href="https://github.com/vuquangtin/algorithm">https://github.com/
+ *      vuquangtin/algorithm</a>
  *
  */
 public class ArrangementEnumeration {
 	public static void main(String[] args) {
-		int n = 5;
+		int n = 4;
 		int k = 3;
 		int[] x = new int[k];
 		boolean[] c = new boolean[n];
-		back(x, c, 5, 3, 0);
+		back(x, c, n, k, 0);
 	}
 
+	private static int total = 1;
+
 	static void printArray(int[] x) {
+		
 		for (int i = 1; i < x.length; i++) {
 			System.out.print(x[i]);
 		}
@@ -32,6 +35,7 @@ public class ArrangementEnumeration {
 			if (!c[j]) {
 				x[i] = j;
 				if (i == k - 1) {
+					System.out.print(total+++"-->");
 					System.out.println(Arrays.toString(x));
 					// printArray(x);
 				} else {

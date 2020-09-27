@@ -18,37 +18,33 @@ import algorithm.utilities.Log4jUtils;
  * @author EMAIL:vuquangtin@gmail.com , tel:0377443333
  * @version 1.0.0
  * @see <a href="https://github.com/vuquangtin/algorithm">https://github.com/
-
+ * 
  *      vuquangtin/algorithm</a>
  *
  */
 public class UpdateREADME {
-	private static Logger logger = Logger.getLogger(UpdateREADME.class
-			.getName());
+	private static Logger logger = Logger.getLogger(UpdateREADME.class.getName());
 	private static int INDEX_TITLE = 1;
 
 	public enum TITLE {
-		algorithm(
-				INDEX_TITLE++,
-				"# algorithm",
+		algorithm(INDEX_TITLE++, "# algorithm",
 				"Giải thuật Algorithms (hay còn gọi là thuật toán) là một tập hợp hữu hạn các chỉ thị để được thực thi theo một thứ tự nào đó để thu được kết quả mong muốn. Nói chung thì giải thuật là độc lập với các ngôn ngữ lập trình, tức là một giải thuật có thể được triển khai trong nhiều ngôn ngữ lập trình khác nhau.\nXuất phát từ quan điểm của cấu trúc dữ liệu, dưới đây là một số giải thuật quan trọng:"
 						+ "\n\n* Giải thuật Tìm kiếm: Giải thuật để tìm kiếm một phần tử trong một cấu trúc dữ liệu."
 						+ "\n* Giải thuật Sắp xếp: Giải thuật để sắp xếp các phần tử theo thứ tự nào đó."
 						+ "\n* Giải thuật Chèn: Giải thuật để chèn phần từ vào trong một cấu trúc dữ liệu."
 						+ "\n* Giải thuật Cập nhật: Giải thuật để cập nhật (hay update) một phần tử đã tồn tại trong một cấu trúc dữ liệu."
 						+ "\n* Giải thuật Xóa: Giải thuật để xóa một phần tử đang tồn tại từ một cấu trúc dữ liệu."
-						+ "\n\n### Tham khảo"), cses(INDEX_TITLE++, "# cses",
-				"\n\n### Tham khảo"), icpc(INDEX_TITLE++, "# icpc",
-				"\n\n### Tham khảo"), java(INDEX_TITLE++, "# java",
-				"\n\n### Tham khảo"), github(INDEX_TITLE++, "# github",
-				"\n\n### Tham khảo"), java_certification(INDEX_TITLE++,
-				"# java_certification", "\n\n### Tham khảo"), Exam(
-				INDEX_TITLE++, "# Exam", "\n\n### Tham khảo"), tutorial(
-				INDEX_TITLE++, "# Tutorial", "\n\n### Tham khảo"), docs(
-				INDEX_TITLE++, "# docs", "\n\n### Tham khảo"), Web(
-				INDEX_TITLE++,
-				"#  nguồn học thuật toán chất lượng để bạn luyện 'lên cơ'",
-				"\n\n### Tham khảo");
+						+ "\n\n### Tham khảo"), cses(INDEX_TITLE++, "# cses", "\n\n### Tham khảo"), icpc(INDEX_TITLE++,
+								"# icpc",
+								"\n\n### Tham khảo"), java(INDEX_TITLE++, "# java", "\n\n### Tham khảo"), github(
+										INDEX_TITLE++, "# github",
+										"\n\n### Tham khảo"), java_certification(INDEX_TITLE++, "# java_certification",
+												"\n\n### Tham khảo"), Exam(INDEX_TITLE++, "# Exam",
+														"\n\n### Tham khảo"), tutorial(INDEX_TITLE++, "# Tutorial",
+																"\n\n### Tham khảo"), docs(INDEX_TITLE++, "# docs",
+																		"\n\n### Tham khảo"), Web(INDEX_TITLE++,
+																				"#  nguồn học thuật toán chất lượng để bạn luyện 'lên cơ'",
+																				"\n\n### Tham khảo");
 		private int index;
 		private String name;
 		private String des;
@@ -137,6 +133,11 @@ public class UpdateREADME {
 		set.add("https://leetcode.com/");
 		set.add("https://www.dailycodingproblem.com/");
 		set.add("https://www.hackerrank.com/");
+		set.add("https://vn.spoj.com/KSTN/problems/task/");
+		set.add("http://bkict.org/hustoj/problem/list");
+		set.add("http://laptrinhphothong.vn/Problem/List");
+		set.add("http://hoctincungthukhoa.com/index.php/cac-thu-t-toan-co-b-n?limitstart=0");
+		set.add("https://cuuduongthancong.com/d2h/tong-hop/30-de-cau-truc-du-lieu-va-giai-thuat.html?src=detail");
 		return set;
 	}
 
@@ -316,6 +317,7 @@ public class UpdateREADME {
 		set.add("https://www.spoj.com/ACMPTIT/problems/main/sort=0,start=0");
 		set.add("https://github.com/VikasSherawat/Programming/tree/master/CompanyInterviews ");
 		set.add("https://github.com/vunguyen1989/Fundamental/tree/master/LeMinhHoang");
+		set.add("https://sites.google.com/site/indy256/algo/arrangements");
 		return set;
 	}
 
