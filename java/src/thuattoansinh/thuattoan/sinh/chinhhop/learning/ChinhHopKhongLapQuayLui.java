@@ -1,4 +1,4 @@
-package thuattoan.sinh.chinhhop;
+package thuattoan.sinh.chinhhop.learning;
 
 import java.io.BufferedReader;
 import java.io.IOException;

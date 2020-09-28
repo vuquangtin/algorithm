@@ -80,7 +80,7 @@ public class ChinhHopKhongLap {
 
 	public static void main(String[] args) {
 		ChinhHopKhongLap baiTap8 = new ChinhHopKhongLap();
-		baiTap8.giaiThuat1(4, 3);
+		baiTap8.giaiThuat1(5, 3);
 
 	}
 
